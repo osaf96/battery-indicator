@@ -1,3 +1,5 @@
+const button = document.getElementById('btn')
+
 initBattery() 
 
 
@@ -21,6 +23,7 @@ function initBattery(){
             }
             else if (level <= 20 &! batt.charging){
                 BatteryStatus.innerHTML = `Battery Low <i class="ri-plug-line animated-red"></i>`
+                
             }
             else if( batt.charging ){
                 BatteryStatus.innerHTML =`Battery Charging ... <i class="ri-flashlight-line animated-green"></i>`
@@ -33,10 +36,34 @@ function initBattery(){
             if(level <= 20){
                  BatteryLiquid.classList.add('gradient-color-red')
                  BatteryLiquid.classList.remove('gradient-color-orange' , 'gradient-color-green' , 'gradinet-color-yellow')
+                 
+                 button.addEventListener('click',() =>{
+                    Notification.requestPermission().then(perm =>  {
+                        if (perm === "granted"){
+                            new Notification('battery is low ' ,{
+                                body: "plug the charger .",
+                                icon: "letter-a (1).png"
+                            })
+                        }
+                    })
+                })
+
+
             }
             else if (level <= 40){
                 BatteryLiquid.classList.add('gradient-color-orange')
                 BatteryLiquid.classList.remove('gradient-color-red' , 'gradient-color-green' , 'gradinet-color-yellow')
+                 
+                button.addEventListener('click',() =>{
+                    Notification.requestPermission().then(perm =>  {
+                        if (perm === "granted"){
+                            new Notification('battery is low ' ,{
+                                body: "plug the charger .",
+                                icon: "letter-a (1).png"
+                            })
+                        }
+                    })
+                })
                
             }
             else if(level<= 80){
@@ -55,3 +82,14 @@ function initBattery(){
         batt.addEventListener('levelchange', () => {updateBattery()})
      } )     
 }
+// notify button script
+//  button.addEventListener('click',() =>{
+//     Notification.requestPermission().then(perm =>  {
+//         if (perm === "granted"){
+//             new Notification('battery is low ' ,{
+//                 body: "plug the charger .",
+//                 icon: "letter-a (1).png"
+//             })
+//         }
+//     })
+// })
