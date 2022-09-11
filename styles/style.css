@@ -201,3 +201,27 @@ body{
   opacity: 0.8;  
   
 }
+.notify{
+    padding: 10px;
+   
+    
+}
+.notify-btn{
+    background-color: var(--body-color);
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+   border-radius: 18px;
+   font-size: 16px;
+}
+.notify-btn:hover{
+    background-color: #fff;
+    color: var(--body-color);
+    cursor: pointer;
+    
+}
+.btn-detalis{
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
