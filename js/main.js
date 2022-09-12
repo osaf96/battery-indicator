@@ -64,16 +64,7 @@ function initBattery(){
                 BatteryLiquid.classList.add('gradient-color-orange')
                 BatteryLiquid.classList.remove('gradient-color-red' , 'gradient-color-green' , 'gradinet-color-yellow')
                  
-                // button.addEventListener('click',() =>{
-                //     Notification.requestPermission().then(perm =>  {
-                //         if (perm === "granted"){
-                //             new Notification('battery is low ' ,{
-                //                 body: "plug the charger .",
-                //                 icon: "letter-a (1).png"
-                //             })
-                //         }
-                //     })
-                // })
+             
                
             }
             else if(level<= 80){
