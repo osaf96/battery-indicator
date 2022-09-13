@@ -2,7 +2,7 @@ const button = document.getElementById('btn')
 
 initBattery() 
 
-
+// script for batttery
   
 function initBattery(){
     const BatteryLiquid = document.querySelector('.battery-liquid'),
