@@ -83,6 +83,9 @@ function initBattery(){
         batt.addEventListener('levelchange', () => {updateBattery()})
      } )     
 }
+
+
+// battery health notify //
 // notify button script
 //  button.addEventListener('click',() =>{
 //     Notification.requestPermission().then(perm =>  {
