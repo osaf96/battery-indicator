@@ -85,7 +85,7 @@ function initBattery(){
 }
 
 
-// battery health notify //
+// battery health notify 
 // notify button script
 //  button.addEventListener('click',() =>{
 //     Notification.requestPermission().then(perm =>  {
