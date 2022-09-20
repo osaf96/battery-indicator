@@ -26,6 +26,7 @@
    --normal-font-size:0.983rem;
    --small-font-size:0.75rem
 }
+/* screens */
 @media screen and (min-width : 968px) {
     
     :root{
