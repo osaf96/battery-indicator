@@ -1,7 +1,7 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 
-
+/* css Style  Varibales */
 :root{
     --gradient-color-red:
      linear-gradient(90deg, hsl(7 ,89% , 46%) 15%, 
