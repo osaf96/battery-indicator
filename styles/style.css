@@ -47,7 +47,6 @@ body{
     color: var(--text-color);
 }
 
-
 .battery{
     height: 100vh;
     display: grid;
