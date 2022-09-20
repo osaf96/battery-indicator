@@ -28,7 +28,7 @@
 }
 /* screens */
 @media screen and (min-width : 968px) {
-    
+      /* min Devices Variables */
     :root{
         --biggest-font-size: 2.75rem;
    --normal-font-size: 1rem;
