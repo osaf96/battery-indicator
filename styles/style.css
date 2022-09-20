@@ -179,13 +179,13 @@ body{
     .battery-card{
         zoom: 0.8;
     }
-    
+ 
 }
 @media screen and (min-width:430px) {
     .battery-card{
         width: 312px;
     }
-    
+  
 }
 .logo{
 
