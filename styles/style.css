@@ -3,6 +3,7 @@
 
 /* css Style  Varibales */
 :root{
+    /* colors */
     --gradient-color-red:
      linear-gradient(90deg, hsl(7 ,89% , 46%) 15%, 
                             hsl(11 , 93% , 68%) 100%);
