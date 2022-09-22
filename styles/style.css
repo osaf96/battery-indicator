@@ -47,7 +47,7 @@ body{
     background-color: var(--body-color);
     color: var(--text-color);
 }
-
+/* Battery Card */
 .battery{
     height: 100vh;
     display: grid;
@@ -205,7 +205,7 @@ body{
 .notify{
     padding: 10px;
 }
-/* .notify-btn{
+.notify-btn{
     background-color: var(--body-color);
     border: 2px solid #fff;
     color: #fff;
@@ -213,14 +213,14 @@ body{
     cursor: pointer;
    border-radius: 18px;
    font-size: 16px;
-} */
-/* .notify-btn:hover{
+} 
+ .notify-btn:hover{
     background-color: #fff;
     color: var(--body-color);
     cursor: pointer;
     
-} */
-/* .btn-detalis{
+} 
+ .btn-detalis{
     padding-bottom: 7px;
     padding-top: 7px;
-} */
+}
