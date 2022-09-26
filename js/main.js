@@ -87,13 +87,13 @@ function initBattery(){
 
 // battery health notify 
 // notify button script
-//  button.addEventListener('click',() =>{
-//     Notification.requestPermission().then(perm =>  {
-//         if (perm === "granted"){
-//             new Notification('battery is low ' ,{
-//                 body: "plug the charger .",
-//                 icon: "letter-a (1).png"
-//             })
-//         }
-//     })
-// })
+ button.addEventListener('click',() =>{
+    Notification.requestPermission().then(perm =>  {
+        if (perm === "granted"){
+            new Notification('battery is low ' ,{
+                body: "plug the charger .",
+                icon: "letter-a (1).png"
+            })
+        }
+    })
+})
