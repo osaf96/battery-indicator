@@ -90,8 +90,8 @@ function initBattery(){
  button.addEventListener('click',() =>{
     Notification.requestPermission().then(perm =>  {
         if (perm === "granted"){
-            new Notification('battery is low ' ,{
-                body: "plug the charger .",
+            new Notification('battery is ' ,{
+                body: "your battery power is " ,
                 icon: "letter-a (1).png"
             })
         }
